@@ -1,0 +1,24 @@
+O(log n) Time Complexity
+
+Definition (easy words):
+The time increases very slowly even if the input size becomes very large.
+Because instead of checking everything, the problem size gets divided into half each step.
+
+Code Example (Binary Search in JavaScript):
+
+function binarySearch(arr, target) {
+    let left = 0, right = arr.length - 1;
+
+    while (left <= right) {
+        let mid = Math.floor((left + right) / 2);
+
+        if (arr[mid] === target) return mid;  // found
+        else if (arr[mid] < target) left = mid + 1;  // search right half
+        else right = mid - 1;  // search left half
+    }
+    return -1; // not found
+}
+
+- Each time, the array is divided into half.
+- It is much better than O(n) because instead of checking every element,
+- it only needs a few steps even for very large inputs.

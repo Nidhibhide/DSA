@@ -12,3 +12,29 @@ Examples:
 
 3. Big-O Notation
 Used to describe the worst-case scenario of an algorithm.
+
+
+Comparison of Time Complexities:
+
+1. O(1) → Constant Time
+   - Best performance.
+   - Execution time does not grow with input size.
+   - Example: Accessing an element in an array.
+
+2. O(log n) → Logarithmic Time
+   - Very efficient for large inputs.
+   - Execution time grows slowly.
+   - Example: Binary Search.
+
+3. O(n) → Linear Time
+   - Moderate performance.
+   - Execution time grows directly with input size.
+   - Example: Traversing a list.
+
+4. O(n²) → Quadratic Time
+   - Slower performance for large inputs.
+   - Execution time grows with the square of input size.
+   - Example: Bubble Sort.
+
+Order from best to worst:
+O(1)  >  O(log n)  >  O(n)  >  O(n²)

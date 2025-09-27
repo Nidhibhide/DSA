@@ -1,0 +1,18 @@
+Time Complexity: O(n²)
+
+Definition:
+The execution time increases in proportion to the square of the input size.
+If the input size doubles, the time becomes about four times larger.
+
+Example in JavaScript:
+function printPairs(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr.length; j++) {
+            console.log(arr[i], arr[j]);
+        }
+    }
+}
+
+Explanation:
+For each element i, the inner loop runs n times.
+So total operations = n * n = n².
