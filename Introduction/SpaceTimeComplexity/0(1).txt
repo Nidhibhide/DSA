@@ -1,0 +1,30 @@
+Time Complexity: O(1)
+---------------------
+Definition: Takes the same amount of time regardless of input size.
+
+JavaScript Example:
+const getFirstStudent = (students) => {
+    return students[0]; // always 1 step
+}
+
+let students = ["Alice", "Bob", "Charlie", "David"];
+console.log(getFirstStudent(students)); // Output: Alice
+
+Time Complexity: O(1) – always 1 step
+
+---------------------
+Space Complexity: O(1)
+---------------------
+Definition: Uses fixed extra memory, no matter how big the input.
+
+JavaScript Example:
+const countFirstStudent = (students) => {
+    let count = 0; // only 1 extra variable
+    count++;       // increment once
+    return count;
+}
+
+let students = ["Alice", "Bob", "Charlie", "David"];
+console.log(countFirstStudent(students)); // Output: 1
+
+Space Complexity: O(1) – memory does not grow with input size

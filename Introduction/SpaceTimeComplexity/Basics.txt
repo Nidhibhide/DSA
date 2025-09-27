@@ -1,0 +1,14 @@
+1. Time Complexity
+Definition: Measures how the time of an algorithm grows with input size.
+Examples:
+- O(1) – Constant Time: Access the first student in a list.
+- O(n) – Linear Time: Search for a student one by one.
+
+2. Space Complexity
+Definition: Measures how the memory usage of an algorithm grows with input size.
+Examples:
+- O(1) – Constant Space: Store a single variable.
+- O(n) – Linear Space: Store all students in a new list.
+
+3. Big-O Notation
+Used to describe the worst-case scenario of an algorithm.

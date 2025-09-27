@@ -1,0 +1,15 @@
+1. DSA is a combination of Data Structure + Algorithm.
+
+2. To apply any algorithm on data, the data needs to be stored in a structured way.
+
+3. This allows us to perform operations efficiently on the data.
+
+4. Types of DSA:
+   - Linear: Array, String, Linked List
+   - Non-Linear: Tree, Graph
+
+5. Example:
+   Suppose I want to find the phone number of a person named 'Nidhi'. 
+   - If the data is not structured, it will take a lot of time to find the phone number.
+   - If the data is stored in a sorted manner alphabetically, I would still need to check from A, B, C ... N, which is a time-consuming process.
+   - Now, if I apply an algorithm to jump directly to 'N' and find letters starting with 'Nid...', I can find the number much more efficiently.

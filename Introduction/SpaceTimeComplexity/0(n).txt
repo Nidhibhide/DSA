@@ -1,0 +1,45 @@
+Time Complexity: O(n)
+---------------------
+Definition: The execution time increases linearly with the input size.
+If the input size doubles, the time roughly doubles.
+
+Example in JavaScript:
+// Function to print all students' names
+const printStudents = (students) => {
+    for (let i = 0; i < students.length; i++) {
+        console.log(students[i]); // Loop runs n times
+    }
+}
+
+let students = ["Alice", "Bob", "Charlie", "David"];
+printStudents(students);
+// Output:
+// Alice
+// Bob
+// Charlie
+// David
+
+Explanation: The loop runs once for each student, so time grows linearly with input → O(n)
+
+---------------------
+Space Complexity: O(n)
+---------------------
+Definition: The memory used grows linearly with the input size.
+If the input size doubles, memory usage roughly doubles.
+
+Example in JavaScript:
+// Function to create a copy of students array
+const copyStudents = (students) => {
+    let copy = [];
+    for (let i = 0; i < students.length; i++) {
+        copy.push(students[i]); // New array grows with input size
+    }
+    return copy;
+}
+
+let students = ["Alice", "Bob", "Charlie", "David"];
+let newStudents = copyStudents(students);
+console.log(newStudents);
+// Output: ["Alice", "Bob", "Charlie", "David"]
+
+Explanation: The 'copy' array grows proportionally to the number of students → O(n) space
